@@ -34,8 +34,6 @@ public class CardBasicBehavior : MonoBehaviour
     {
         front.SetActive(true);
         back.SetActive(false);
-
-        TestBranches();
     }
 
     //Button Event
@@ -47,6 +45,8 @@ public class CardBasicBehavior : MonoBehaviour
 
             StartCoroutine(MoveCardUpAndDown());
         }
+
+        Debug.Log("isInHand: " + isInHand);
 
         if (!isInHand)
         {
@@ -363,10 +363,7 @@ public class CardBasicBehavior : MonoBehaviour
     }
 
 
-    private void TestBranches()
-    {
-        Debug.Log("Test Branches");
-    }
+
 }
 
 
