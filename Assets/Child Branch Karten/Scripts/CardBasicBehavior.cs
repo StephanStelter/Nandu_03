@@ -34,6 +34,8 @@ public class CardBasicBehavior : MonoBehaviour
     {
         front.SetActive(true);
         back.SetActive(false);
+
+        TestBranches();
     }
 
     //Button Event
@@ -358,6 +360,12 @@ public class CardBasicBehavior : MonoBehaviour
     public void CardScriptTest()
     {
         Debug.Log("CardBasic: InDeck: " + isInDeck);
+    }
+
+
+    private void TestBranches()
+    {
+        Debug.Log("Test Branches");
     }
 }
 
