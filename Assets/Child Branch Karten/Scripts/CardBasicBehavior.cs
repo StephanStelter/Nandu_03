@@ -36,6 +36,11 @@ public class CardBasicBehavior : MonoBehaviour
         back.SetActive(false);
     }
 
+    private void Update()
+    {
+        Debug.Log("CardBasicBehavior: isInDeck: " + isInDeck + ", isLocked: " + isLocked);
+    }
+
     //Button Event
     public void ClickedOnCard()
     {
