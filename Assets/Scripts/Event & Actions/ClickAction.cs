@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-//TESTTEST
+//TESTTEST TÜFLDLE
 public abstract class ClickAction : MonoBehaviour
 {
     protected bool isRunning = false;
